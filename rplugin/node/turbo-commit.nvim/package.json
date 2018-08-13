@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/labs-js/turbo-commit.nvim/issues"
   },
-  "homepage": "https://github.com/labs-js/turbo-commit.nvim#readme"
+  "homepage": "https://github.com/labs-js/turbo-commit.nvim#readme",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "neovim": "^4.2.1"
+  }
 }

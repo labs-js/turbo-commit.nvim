@@ -11,7 +11,7 @@ module.exports = (plugin) => {
         pattern: "*",
     });
     async turboStatus() = >{
-    
+       debugger;
     }
     plugin.registerCommand("Tstatus", turboStatus, {
         sync: false,
