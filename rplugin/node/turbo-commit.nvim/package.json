@@ -1,0 +1,25 @@
+{
+  "name": "turbo-commit.nvim",
+  "version": "1.0.0",
+  "description": "Turbo Commit plugin for vim",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/labs-js/turbo-commit.nvim.git"
+  },
+  "keywords": [
+    "Turbo",
+    "Commit",
+    "neovim",
+    "vim"
+  ],
+  "author": "labs-js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labs-js/turbo-commit.nvim/issues"
+  },
+  "homepage": "https://github.com/labs-js/turbo-commit.nvim#readme"
+}
