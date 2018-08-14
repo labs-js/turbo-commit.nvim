@@ -1,4 +1,4 @@
-<h1 align="center">Turbo Commit</h1>
+<h1 align="center">Turbo Git</h1>
 
 
 
@@ -9,7 +9,7 @@ yarn|npm installed globally.
 With vim-plug
 ```vim
 " post install (yarn install | npm install)
-Plug 'labs-js/turbo-commit.nvim', { 'do': 'npm --prefix ./rplugin/node/turbo-commit.nvim/ install' }
+Plug 'labs-js/turbo-git.nvim', { 'do': 'npm --prefix ./rplugin/node/turbo-git.nvim/ install' }
 ```
 After run PlugInstall use `:UpdateRemotePlugins` and restart neovim
 
