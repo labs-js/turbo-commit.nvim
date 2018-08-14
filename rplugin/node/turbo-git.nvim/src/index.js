@@ -22,8 +22,8 @@ module.exports = (plugin) => {
             stdout,
             stderr
         } = await exec("git status");
-        buffer.setLines('test', {
-            start: index,
+        buffer.setLines(stdout.split('\n'), {
+            start: 0,
             end: -1
         });
     }
